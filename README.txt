@@ -1,5 +1,5 @@
 This project is my Capstone for BrainStation Data Science Boot Camp. In this project, I explored different NLP methods to process the 
-Covid news article texts and predict article sentiment, including a Wor2Vec embedding trained by my own neural network.
+Covid news article texts and predict article sentiment, including a Word2Vec embedding trained by my own neural network.
 
 *This project spans across three different notebooks:
  1 - Fetch_Data_and_EDA
@@ -18,7 +18,6 @@ Covid news article texts and predict article sentiment, including a Wor2Vec embe
 
 *The "data" folder contains several grid search results as well as the trained embedding modles that I use.
  - "my_own_w2v.pkl" is a dictionary storing my trained Word2Vec embedding
- - "lexvec.enwiki+newscrawl.300d.W.pos.vectors" is a pre-trained lexvec embedding
  -  The other files starting with "gridsearch" stores the few gridsearch results in my modeling process.
     More details can be found in the notebooks. 
 
